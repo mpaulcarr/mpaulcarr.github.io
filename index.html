@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="nav">
+    <div class="wrapper">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/monica-carreon">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="splash">
+    <div class="wrapper">
+      <h1>Hi, I&apos;m Monica&mdash;but you can call me Mon.</h1>
+      <p class="intro">I worked as a Digital Marketing Manager for a startup incubator in the Philippines. Like most startup roles, it meant juggling a lot at once—product, marketing, partnerships, user research, launches, reporting... you name it. It wasn&apos;t easy, but it taught me everything I know about building from the ground up.</p>
+      <p class="intro">The CV I sent you? It&apos;s the short version, so you don&apos;t immediately toss it. But this page is the full story—what I&apos;ve really done, how I work, and the kinds of problems I like solving. It&apos;s a mix of marketing, product, and project work—with real metrics, real challenges, and real results. And yes, I used generative AI to help write this. Gotta go with the times. 😉</p>
+    </div>
+  </div>
+  <div class="portfolio">
+    <div class="wrapper">
+      <h3 class="divider">
+        <span>Some of the projects I've worked on</span>
+      </h3>
+      {% assign projects = site.projects | sort: 'year' | reverse %}
+      {% for project in projects %}
+        <div class="project">
+          <div class="project-header">
+            <div class="project-details">
+              {% if project.icon %}
+                <img src="{{ project.icon }}" alt="App Icon" class="project-icon" />
+              {% endif %}
+              <h4 class="project-name">{{ project.name }}</h4>
+              <div class="project-role">{{ project.year }} &middot; {{ project.role }}  &middot; {{ project.company }}</div>
+              <div class="project-description">
+                {{ project.content | markdownify }}
+              </div>
+              <div class="project-links">
+                {% if project.download_url %}
+                  <a class="button" href="{{ project.download_url }}" target="_blank">Download</a>
+                {% endif %}
+                {% if project.website_url %}
+                  <a class="button" href="{{ project.website_url }}" target="_blank">Website</a>
+                {% endif %}
+                {% if project.press_url %}
+                  <a class="button" href="{{ project.press_url }}" target="_blank">Press</a>
+                {% endif %}
+              </div>
+            </div>
+            <div class="project-feature-image" style="background-image: url('{{ project.feature_image }}')"></div>
+          </div>
+          <div class="project-content">
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
