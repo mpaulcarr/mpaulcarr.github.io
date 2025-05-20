@@ -11,9 +11,9 @@ download_url: https://viyahe.app.link/web
 website_url: https://viyahe.com
 ---
 
-### 🚀 What I did:
+#### 🚀 What I did
 
-**Product & Growth:**
+##### Product & Growth
 
 - Collaborated with Product, Engineering, and stakeholders to scope and plan mobile features.
 - Led go-to-market strategy: handled private/public beta launches, soft launch, and branding rollout.
@@ -25,7 +25,7 @@ website_url: https://viyahe.com
 - Shared actionable insights with dev and ops teams to improve registration, response quality, and agent follow-ups.
 - Created escalation protocols and trained travel agents on product workflows.
 
-**Marketing & Business:**
+##### Marketing & Business
 
 - Developed and executed full marketing plans and campaigns, including branding (voice, tone, writing style, target market personas).
 - Maintained brand guidelines and internal templates for cross-team alignment.
@@ -38,13 +38,13 @@ website_url: https://viyahe.com
 - Oversaw paid campaigns on Facebook, Instagram, Google Search, and YouTube.
 - Led the marketing team’s workflow and mentored junior team members.
 
-**Brand Partnerships:**
+##### Brand Partnerships
 
 - Negotiated and built co-branded campaigns with **Emirates, and Turkish Airlines**.
 - Launched local charity auction in partnership with **SISA Siargao Island Surfers Association**.
 - Managed co-branded campaign activations and materials in partnership with airline teams.
 
-### 🏆 Key Achievements:
+#### 🏆 Key Achievements
 
 - Formed Viyahe’s first airline partnership with **Emirates**; co-branded campaign achieved a **31.5% sign-up conversion rate**.
 - Drove **47% user engagement** through UX improvements, messaging strategy, and targeted campaigns.
