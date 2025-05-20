@@ -4,7 +4,7 @@ feature_image: /images/viyahe_feature.png
 name: Viyahe
 year: 2017
 date: 2017-01-01
-role: Head of Product
+role: Marketing Manager
 company: Viyahe
 description: A chat-based travel mobile app that connects users with real-time travel assistants to search, book, and manage their flights.
 download_url: https://viyahe.app.link/web

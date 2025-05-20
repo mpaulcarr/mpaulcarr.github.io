@@ -43,3 +43,4 @@ collections:
     sort_by: date
     order:
       - viyahe.md
+      - medifi.md
