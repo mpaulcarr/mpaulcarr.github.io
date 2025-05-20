@@ -129,10 +129,24 @@ p.intro {
   margin-bottom: 96px;
   min-height: 450px;
 
-  .project-content {
+  .project-header {
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .project-content {
+    padding: 56px;
+    line-height: 1.6;
+
+    h4 {
+      margin-top: 48px;
+      font-size: 24px;
+    }
+
+    h5 {
+      margin-top: 24px;
+    }
   }
 
   .project-feature-image {
