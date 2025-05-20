@@ -33,7 +33,7 @@ layout: default
               <h4 class="project-name">{{ project.name }}</h4>
               <div class="project-role">{{ project.year }} &middot; {{ project.role }}  &middot; {{ project.company }}</div>
               <div class="project-description">
-                {{ project.content | markdownify }}
+                {{ project.description | markdownify }}
               </div>
               <div class="project-links">
                 {% if project.download_url %}
@@ -50,7 +50,7 @@ layout: default
             <div class="project-feature-image" style="background-image: url('{{ project.feature_image }}')"></div>
           </div>
           <div class="project-content">
-
+            {{ project.content | markdownify }}
           </div>
         </div>
       {% endfor %}
