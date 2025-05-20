@@ -37,4 +37,4 @@ description: A telehealth platform that connects patients and doctors through we
 - Identified and resolved core usability issues through interviews and feedback from clinicians and patients.
 - Delivered MVP features in line with roadmap and launched new website.
 - Created operational infrastructure: onboarding flows, user manuals, testing, and feedback systems.
-- Explored and negotiated partnerships with **clinic (ConciergeMed Clinic)**, )Hi-Precision Diagnostics) **labs**, and **insurance provider (AXA)** to support growth.
+- Explored and negotiated partnerships with **clinics (ConciergeMed Clinic, Hi-Precision Diagnostics Labs)**, and **insurance providers (AXA)** to support growth.

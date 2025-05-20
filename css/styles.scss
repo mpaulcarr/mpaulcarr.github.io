@@ -83,6 +83,11 @@ p.intro {
   margin: 0 auto;
 }
 
+.content-divider {
+  height: 1px;
+  background: #e8e8e8;
+}
+
 .nav {
   ul {
     display: flex;
@@ -146,6 +151,10 @@ p.intro {
 
     h5 {
       margin-top: 24px;
+    }
+
+    ul {
+      margin-bottom: 24px;
     }
   }
 
@@ -354,5 +363,13 @@ p.intro {
   .project {
     padding: 24px;
     margin-bottom: 24px;
+
+    .project-details {
+      padding: 0;
+    }
+
+    .project-content {
+      padding: 0;
+    }
   }
 }
