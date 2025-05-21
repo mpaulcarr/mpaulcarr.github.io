@@ -20,6 +20,18 @@ layout: default
   <div class="portfolio">
     <div class="wrapper">
       <h3 class="divider">
+        <span>Skills</span>
+      </h3>
+      <div class="skills">
+        {% for skill in site.data.skills %}
+          <span class="skill-pill">{{ skill.name }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="portfolio">
+    <div class="wrapper">
+      <h3 class="divider">
         <span>Projects I've worked on</span>
       </h3>
       {% assign projects = site.projects | sort: 'year' | reverse %}
