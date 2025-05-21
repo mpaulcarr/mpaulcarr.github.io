@@ -144,7 +144,7 @@ p.intro {
     padding: 56px;
     line-height: 1.6;
 
-    h4 {
+    h4:not(:first-child) {
       margin-top: 48px;
       font-size: 24px;
     }
