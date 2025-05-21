@@ -271,6 +271,15 @@ p.intro {
 }
 
 @media screen and (max-width: 960px) {
+  h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+
+  .intro {
+    font-size: 18px;
+  }
+
   h3.divider {
     margin-bottom: 48px;
   }
@@ -312,15 +321,6 @@ p.intro {
 }
 
 @media screen and (max-width: 540px) {
-  h1 {
-    font-size: 40px;
-    margin-bottom: 16px;
-  }
-
-  .intro {
-    font-size: 18px;
-  }
-
   h3.divider {
     font-size: 16px;
     margin-bottom: 24px;
