@@ -32,7 +32,7 @@ layout: default
               {% endif %}
               <h4 class="project-name">{{ project.name }}</h4>
               <div class="project-role">{{ project.year }} &middot; {{ project.role }}  &middot; {{ project.company }}</div>
-              {% if project.description }
+              {% if project.description %}
                 <div class="project-description">
                   {{ project.description | markdownify }}
                 </div>
