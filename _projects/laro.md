@@ -2,8 +2,8 @@
 icon: /images/laro_icon.png
 feature_image: /images/laro_feature.png
 name: Laro - Sports & Fitness App
-year: 2017
-date: 2017-01-01
+year: 2018
+date: 2018-01-01
 role: Marketing Manager
 company: Laro
 description: A community-driven fitness and events app for organizers, studios, and fitness/sports enthusiasts.
