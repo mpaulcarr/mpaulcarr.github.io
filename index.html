@@ -20,7 +20,7 @@ layout: default
   <div class="portfolio">
     <div class="wrapper">
       <h3 class="divider">
-        <span>Some of the projects I've worked on</span>
+        <span>Projects I've worked on</span>
       </h3>
       {% assign projects = site.projects | sort: 'year' | reverse %}
       {% for project in projects %}
@@ -37,17 +37,19 @@ layout: default
                   {{ project.description | markdownify }}
                 </div>
               {% endif %}
-              <div class="project-links">
-                {% if project.download_url %}
-                  <a class="button" href="{{ project.download_url }}" target="_blank">Download</a>
-                {% endif %}
-                {% if project.website_url %}
-                  <a class="button" href="{{ project.website_url }}" target="_blank">Website</a>
-                {% endif %}
-                {% if project.press_url %}
-                  <a class="button" href="{{ project.press_url }}" target="_blank">Press</a>
-                {% endif %}
-              </div>
+              {% if project.download_url or project.website_url or project.press_url %}
+                <div class="project-links">
+                  {% if project.download_url %}
+                    <a class="button" href="{{ project.download_url }}" target="_blank">Download</a>
+                  {% endif %}
+                  {% if project.website_url %}
+                    <a class="button" href="{{ project.website_url }}" target="_blank">Website</a>
+                  {% endif %}
+                  {% if project.press_url %}
+                    <a class="button" href="{{ project.press_url }}" target="_blank">Press</a>
+                  {% endif %}
+                </div>
+              {% endif %}
             </div>
             {% if project.feature_image %}
               <div class="project-feature-image" style="background-image: url('{{ project.feature_image }}')"></div>
