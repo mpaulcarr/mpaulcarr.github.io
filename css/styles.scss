@@ -95,11 +95,11 @@ p.intro {
         transition: color 0.187s linear;
 
         &:hover {
-          color: rgb(255, 124, 108, 0.8);
+          color: rgba(255, 124, 108, 0.8);
         }
 
         &:active {
-          color: rgb(255, 124, 108, 0.8);
+          color: rgba(255, 124, 108, 0.8);
         }
       }
     }
