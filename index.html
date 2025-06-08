@@ -37,6 +37,7 @@ layout: default
       {% assign projects = site.projects | sort: 'year' | reverse %}
       {% for project in projects %}
         <div class="project">
+          <input type="checkbox" name="project" id="{{ project.id }}" />
           <div class="project-header">
             <div class="project-details">
               {% if project.icon %}
@@ -49,27 +50,21 @@ layout: default
                   {{ project.description | markdownify }}
                 </div>
               {% endif %}
-              {% if project.download_url or project.website_url or project.press_url %}
-                <div class="project-links">
-                  {% if project.download_url %}
-                    <a class="button" href="{{ project.download_url }}" target="_blank">Download</a>
-                  {% endif %}
-                  {% if project.website_url %}
-                    <a class="button" href="{{ project.website_url }}" target="_blank">Website</a>
-                  {% endif %}
-                  {% if project.press_url %}
-                    <a class="button" href="{{ project.press_url }}" target="_blank">Press</a>
-                  {% endif %}
-                </div>
-              {% endif %}
+              <div class="project-links">
+                <label for="{{ project.id }}">
+                  <a class="button" href="#">Read more</a>
+                </label>
+              </div>
             </div>
             {% if project.feature_image %}
               <div class="project-feature-image" style="background-image: url('{{ project.feature_image }}')"></div>
             {% endif %}
           </div>
-          <div class="content-divider"></div>
-          <div class="project-content">
-            {{ project.content | markdownify }}
+          <div class="content">
+            <div class="content-divider"></div>
+            <div class="project-content">
+              {{ project.content | markdownify }}
+            </div>
           </div>
         </div>
       {% endfor %}

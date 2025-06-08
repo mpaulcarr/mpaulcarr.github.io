@@ -1,4 +1,5 @@
 ---
+id: laro
 icon: /images/laro_icon.png
 feature_image: /images/laro_feature.png
 name: Laro - Sports & Fitness App
