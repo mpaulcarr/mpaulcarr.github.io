@@ -5,7 +5,8 @@ name: Medtek
 year: 2014
 date: 2014-12-01
 role: Product Specialist
-company:  Medical Equipment Company
+company: Medical Trends and Technologies Inc.
+description: Medical Equipment Company
 ---
 
 #### 🔧 What I did
