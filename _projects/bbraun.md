@@ -1,5 +1,6 @@
 ---
 id: bbraun
+icon: /images/bbraun_icon.png
 name: B. Braun Philippines
 year: 2015
 date: 2015-01-01
