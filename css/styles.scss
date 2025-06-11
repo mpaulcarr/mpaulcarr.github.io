@@ -128,6 +128,12 @@ p.intro {
   margin-bottom: 96px;
   position: relative;
 
+  &.card {
+    .project-details {
+      width: auto;
+    }
+  }
+
   input {
     position: absolute;
     opacity: 0;
@@ -176,12 +182,6 @@ p.intro {
     background-repeat: no-repeat;
     background-position: center;
     margin: 56px;
-  }
-
-  &.card {
-    .project-details {
-      width: auto;
-    }
   }
 
   .project-details {
