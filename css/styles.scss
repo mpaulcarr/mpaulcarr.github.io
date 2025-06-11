@@ -319,6 +319,12 @@ span.skill-pill {
     padding: 0 48px;
   }
 
+  .projects {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0;
+  }
+
   .project {
     padding: 48px;
     margin-bottom: 48px;
@@ -326,6 +332,7 @@ span.skill-pill {
 
     .project-details {
       width: auto;
+      padding: 0 0 56px 0;
 
       .project-icon,
       .project-role,
@@ -341,6 +348,10 @@ span.skill-pill {
             margin: 0;
           }
         }
+      }
+
+      .project-content {
+        padding: 56px 0;
       }
     }
   }
