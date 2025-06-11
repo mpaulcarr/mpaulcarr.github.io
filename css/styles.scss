@@ -332,7 +332,7 @@ span.skill-pill {
 
     .project-details {
       width: auto;
-      padding: 0 0 56px 0;
+      padding: 0;
 
       .project-icon,
       .project-role,
@@ -349,10 +349,14 @@ span.skill-pill {
           }
         }
       }
+    }
 
-      .project-content {
-        padding: 56px 0;
-      }
+    .content-divider {
+      margin: 56px 0;
+    }
+
+    .project-content {
+      padding: 0;
     }
   }
 
