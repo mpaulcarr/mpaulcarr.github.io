@@ -1,6 +1,7 @@
 ---
 id: senti
 icon: /images/senti_icon.png
+feature_image: /images/senti_feature.png
 name: Senti
 year: 2016
 date: 2016-02-01
