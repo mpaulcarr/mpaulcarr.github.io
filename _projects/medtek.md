@@ -6,7 +6,7 @@ year: 2014
 date: 2014-12-01
 role: Product Specialist
 company: Medical Trends and Technologies Inc.
-description: Medical Equipment Company
+description: A healthcare distributor providing medical devices and diagnostic equipment to hospitals and clinics across the Philippines.
 ---
 
 #### 🔧 What I did

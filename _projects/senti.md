@@ -6,7 +6,7 @@ year: 2016
 date: 2016-02-01
 role: Social Media Manager
 company: Senti Techlabs
-description: Sentiment Analytics Platform
+description: A Filipino AI startup specializing in natural language processing and sentiment analysis tailored to local languages and dialects.
 ---
 
 #### 🔧 What I did
