@@ -109,10 +109,12 @@ p.intro {
 }
 
 .projects {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
 
   &.featured {
+    display: flex;
     flex-direction: column;
   }
 }
@@ -174,6 +176,12 @@ p.intro {
     background-repeat: no-repeat;
     background-position: center;
     margin: 56px;
+  }
+
+  &.card {
+    .project-details {
+      width: auto;
+    }
   }
 
   .project-details {
