@@ -7,6 +7,7 @@ date: 2014-12-01
 role: Product Specialist
 company: Medical Trends and Technologies Inc.
 description: A healthcare distributor providing medical devices and diagnostic equipment to hospitals and clinics across the Philippines.
+featured: false
 ---
 
 #### 🔧 What I did

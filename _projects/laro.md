@@ -8,6 +8,7 @@ date: 2018-05-01
 role: Marketing Manager
 company: Laro
 description: A community-driven fitness and events app for organizers, studios, and fitness/sports enthusiasts.
+featured: true
 ---
 
 #### 🔧 What I did

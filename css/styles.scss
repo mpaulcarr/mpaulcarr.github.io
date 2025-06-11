@@ -108,6 +108,15 @@ p.intro {
   margin-bottom: 96px;
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+
+  &.featured {
+    flex-direction: column;
+  }
+}
+
 .project {
   display: flex;
   flex-direction: column;

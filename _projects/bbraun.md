@@ -7,6 +7,7 @@ date: 2014-02-01
 role: Professional Hospital Representative
 company:  B. Braun Medical Inc.
 description: A global medical and pharmaceutical company offering healthcare solutions, surgical products, and hospital systems to improve patient care.
+featured: false
 ---
 
 #### What I did

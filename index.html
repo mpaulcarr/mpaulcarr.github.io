@@ -11,7 +11,7 @@ layout: default
   </div>
   <div class="splash">
     <div class="wrapper">
-      <h1>Hi, I&apos;m Monica&mdash;but you can call me Mon.</h1>
+      <h1>Hi, I&apos;m Monica.</h1>
       <p class="intro">I&apos;m transitioning into a Product Management role after working as a digital marketer for startups in the Philippines. Like many startup roles, mine required wearing multiple hats simultaneously.</p>
       <p class="intro">Here is my full career story and key achievements, covering product management, marketing, and business development.</p>
     </div>
@@ -32,43 +32,68 @@ layout: default
   -->
   <div class="portfolio">
     <div class="wrapper">
-      <h3 class="divider">
-        <span>Professional Experience</span>
-      </h3>
-      {% assign projects = site.projects | sort: 'year' | reverse %}
-      {% for project in projects %}
-        <div class="project">
-          <input type="checkbox" name="project" id="{{ project.id }}" />
-          <div class="project-header">
-            <div class="project-details">
-              {% if project.icon %}
-                <img src="{{ project.icon }}" alt="App Icon" class="project-icon" />
-              {% endif %}
-              <h4 class="project-name">{{ project.name }}</h4>
-              <div class="project-role">{{ project.year }} &middot; {{ project.role }}  &middot; {{ project.company }}</div>
-              {% if project.description %}
-                <div class="project-description">
-                  {{ project.description | markdownify }}
+      <div class="projects featured">
+        <h3 class="divider">
+          <span>Professional Experience</span>
+        </h3>
+        {% assign projects = site.projects | sort: 'year' | reverse %}
+        {% for project in projects %}
+          {% if project.featured == true %}
+            <div class="project">
+              <input type="checkbox" name="project" id="{{ project.id }}" />
+              <div class="project-header">
+                <div class="project-details">
+                  {% if project.icon %}
+                    <img src="{{ project.icon }}" alt="App Icon" class="project-icon" />
+                  {% endif %}
+                  <h4 class="project-name">{{ project.name }}</h4>
+                  <div class="project-role">{{ project.year }} &middot; {{ project.role }}  &middot; {{ project.company }}</div>
+                  {% if project.description %}
+                    <div class="project-description">
+                      {{ project.description | markdownify }}
+                    </div>
+                  {% endif %}
+                  <div class="project-links">
+                    <label for="{{ project.id }}" class="button">
+                      Read more
+                    </label>
+                  </div>
                 </div>
-              {% endif %}
-              <div class="project-links">
-                <label for="{{ project.id }}" class="button">
-                  Read more
-                </label>
+                {% if project.feature_image %}
+                  <div class="project-feature-image" style="background-image: url('{{ project.feature_image }}')"></div>
+                {% endif %}
+              </div>
+              <div class="content">
+                <div class="content-divider"></div>
+                <div class="project-content">
+                  {{ project.content | markdownify }}
+                </div>
               </div>
             </div>
-            {% if project.feature_image %}
-              <div class="project-feature-image" style="background-image: url('{{ project.feature_image }}')"></div>
-            {% endif %}
-          </div>
-          <div class="content">
-            <div class="content-divider"></div>
-            <div class="project-content">
-              {{ project.content | markdownify }}
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="companies">
+        {% for project in projects %}
+          {% if project.featured == false %}
+          <div class="project card">
+            <div class="project-header">
+              <div class="project-details">
+                {% if project.icon %}
+                  <img src="{{ project.icon }}" alt="App Icon" class="project-icon" />
+                {% endif %}
+                <h4 class="project-name">{{ project.name }}</h4>
+                <div class="project-role">{{ project.year }} &middot; {{ project.role }}  &middot; {{ project.company }}</div>
+                {% if project.description %}
+                  <div class="project-description">
+                    {{ project.description | markdownify }}
+                  </div>
+                {% endif %}
+              </div>
             </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

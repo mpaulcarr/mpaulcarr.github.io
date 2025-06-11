@@ -7,6 +7,7 @@ date: 2015-10-01
 role: Digital Marketing Officer
 company: Pragtechnologies
 description: A software development and digital solutions agency helping SMEs build websites, automate processes, and grow their online presence.
+featured: false
 ---
 
 #### 🔧 What I did

@@ -8,6 +8,7 @@ date: 2016-02-01
 role: Social Media Manager
 company: Senti Techlabs
 description: A Filipino AI startup specializing in natural language processing and sentiment analysis tailored to local languages and dialects.
+featured: true
 ---
 
 #### 🔧 What I did

@@ -10,6 +10,7 @@ company: Viyahe
 description: A chat-based travel mobile app that connects users with real-time travel assistants to search, book, and manage their flights.
 download_url: https://viyahe.app.link/web
 website_url: https://viyahe.com
+featured: true
 ---
 
 #### 🔧 What I did

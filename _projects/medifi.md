@@ -8,6 +8,7 @@ date: 2017-01-01
 role: Marketing Manager
 company: Medifi
 description: A telehealth platform that connects patients and doctors through web and mobile consults.
+featured: true
 ---
 
 #### 🔧 What I did
