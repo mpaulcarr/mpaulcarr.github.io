@@ -76,22 +76,23 @@ layout: default
       <div class="companies">
         {% for project in projects %}
           {% if project.featured == false %}
-          <div class="project card">
-            <div class="project-header">
-              <div class="project-details">
-                {% if project.icon %}
-                  <img src="{{ project.icon }}" alt="App Icon" class="project-icon" />
-                {% endif %}
-                <h4 class="project-name">{{ project.name }}</h4>
-                <div class="project-role">{{ project.year }} &middot; {{ project.role }}  &middot; {{ project.company }}</div>
-                {% if project.description %}
-                  <div class="project-description">
-                    {{ project.description | markdownify }}
-                  </div>
-                {% endif %}
+            <div class="project card">
+              <div class="project-header">
+                <div class="project-details">
+                  {% if project.icon %}
+                    <img src="{{ project.icon }}" alt="App Icon" class="project-icon" />
+                  {% endif %}
+                  <h4 class="project-name">{{ project.name }}</h4>
+                  <div class="project-role">{{ project.year }} &middot; {{ project.role }}  &middot; {{ project.company }}</div>
+                  {% if project.description %}
+                    <div class="project-description">
+                      {{ project.description | markdownify }}
+                    </div>
+                  {% endif %}
+                </div>
               </div>
             </div>
-          </div>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
