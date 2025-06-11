@@ -3,6 +3,7 @@
 
 html {
   font-family: 'Karla', sans-serif;
+  background-color: rgb(235, 235, 235);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,17 +55,6 @@ p.intro {
   line-height: 1.4;
   letter-spacing: -1px;
   color: #65625f;
-}
-
-.background {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background: #D4B1AF;
-  background: linear-gradient(45deg, rgba(212, 177, 175, 1) 0%, rgba(228, 210, 196, 1) 35%, rgba(254, 252, 253, 1) 100%);
 }
 
 .wrapper {
